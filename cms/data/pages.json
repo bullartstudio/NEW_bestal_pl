@@ -1,0 +1,32 @@
+﻿[
+  {
+    "slug": "index",
+    "title": "Strona główna",
+    "heroTitle": "Prefabrykacja, montaż i serwis rurociągów przemysłowych",
+    "updatedAt": "2026-02-25T12:00:00.000Z"
+  },
+  {
+    "slug": "o-firmie",
+    "title": "O firmie",
+    "heroTitle": "Doświadczenie w sektorze energetycznym od 2000 roku",
+    "updatedAt": "2026-02-25T12:00:00.000Z"
+  },
+  {
+    "slug": "oferty",
+    "title": "Oferty usług",
+    "heroTitle": "Cztery filary oferty BESTAL",
+    "updatedAt": "2026-02-25T12:00:00.000Z"
+  },
+  {
+    "slug": "kontakt",
+    "title": "Kontakt",
+    "heroTitle": "Szybki kontakt i wycena",
+    "updatedAt": "2026-02-25T12:00:00.000Z"
+  },
+  {
+    "slug": "blog",
+    "title": "Blog techniczny",
+    "heroTitle": "Wiedza z prefabrykacji, montażu i serwisu",
+    "updatedAt": "2026-02-25T12:00:00.000Z"
+  }
+]

@@ -1,0 +1,8 @@
+/* Base layer */
+:root {
+  --readable-measure: 75ch;
+}
+
+* { box-sizing: border-box; }
+html:focus-within { scroll-behavior: smooth; }
+img { max-width: 100%; height: auto; }

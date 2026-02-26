@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Kalkulator masy stali BESTAL: oblicz masę blach, rur, ceowników i kątowników.">
+  <title>Kalkulator produktów stalowych | PZRE BESTAL</title>
+  <link rel="canonical" href="https://www.bestal.pl/kalkulator-produktow.html">
+  <meta name="theme-color" content="#6A132E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/media/layouts/default/images/favicon9a04.png" type="image/png">
+
+</head>
+<body>
+  <div id="site-header-placeholder"></div>
+
+  <div class="page-banner">
+    <div class="container"><div class="page-banner__content">
+      <nav class="breadcrumb" aria-label="Ścieżka nawigacji">
+        <a href="index.html">Strona główna</a>
+        <span class="breadcrumb__sep" aria-hidden="true">/</span>
+        <span aria-current="page">Kalkulator</span>
+      </nav>
+      <h1 class="page-banner__title">Kalkulator produktów stalowych</h1>
+    </div></div>
+  </div>
+
+  <main id="main">
+    <section class="section bg-white" aria-labelledby="calc-heading">
+      <div class="container">
+        <div class="section__header section__header--left">
+          <h2 class="section__title section__title--left" id="calc-heading">Szybkie obliczenia masy i długości</h2>
+          <p class="section__subtitle section__subtitle--left">
+            Wprowadź dane w milimetrach. Obliczenia przyjmują gęstość stali 7 850 kg/m3.
+          </p>
+        </div>
+
+        <div class="calc-wrap">
+          <div class="calc-tabs" role="tablist" aria-label="Typ produktu">
+            <button class="calc-tab active" data-tab="blacha" id="calc-tab-blacha" role="tab" aria-selected="true" aria-controls="tab-blacha" tabindex="0" type="button">Blacha</button>
+            <button class="calc-tab" data-tab="rura" id="calc-tab-rura" role="tab" aria-selected="false" aria-controls="tab-rura" tabindex="-1" type="button">Rura</button>
+            <button class="calc-tab" data-tab="ceownik" id="calc-tab-ceownik" role="tab" aria-selected="false" aria-controls="tab-ceownik" tabindex="-1" type="button">Ceownik</button>
+            <button class="calc-tab" data-tab="katownik" id="calc-tab-katownik" role="tab" aria-selected="false" aria-controls="tab-katownik" tabindex="-1" type="button">Kątownik</button>
+          </div>
+
+          <section id="tab-blacha" class="calc-panel active" role="tabpanel" aria-labelledby="calc-tab-blacha" tabindex="0">
+            <h3>Kalkulator blachy</h3>
+            <div class="calc-grid">
+              <label class="calc-field"><span>Grubość [mm]</span><input type="number" inputmode="decimal" autocomplete="off" id="blacha-t" min="0" step="0.01"></label>
+              <label class="calc-field"><span>Szerokość [mm]</span><input type="number" inputmode="decimal" autocomplete="off" id="blacha-w" min="0" step="0.1"></label>
+              <label class="calc-field"><span>Długość [mm]</span><input type="number" inputmode="decimal" autocomplete="off" id="blacha-l" min="0" step="0.1"></label>
+              <label class="calc-field"><span>Ilość [szt.]</span><input type="number" inputmode="decimal" autocomplete="off" id="blacha-q" min="1" value="1" step="1"></label>
+            </div>
+            <div class="calc-result">
+              <div class="calc-result__item"><div class="calc-result__label">Masa 1 szt.</div><div class="calc-result__value" id="blacha-r1">-</div></div>
+              <div class="calc-result__item"><div class="calc-result__label">Masa Łączna</div><div class="calc-result__value" id="blacha-r2">-</div></div>
+              <div class="calc-result__item"><div class="calc-result__label">Masa 1 m2</div><div class="calc-result__value" id="blacha-r3">-</div></div>
+            </div>
+          </section>
+
+          <section id="tab-rura" class="calc-panel" role="tabpanel" aria-labelledby="calc-tab-rura" tabindex="0" hidden>
+            <h3>Kalkulator rury</h3>
+            <div class="calc-grid">
+              <label class="calc-field"><span>Średnica zewnętrzna [mm]</span><input type="number" inputmode="decimal" autocomplete="off" id="rura-d" min="0" step="0.1"></label>
+              <label class="calc-field"><span>Grubość ścianki [mm]</span><input type="number" inputmode="decimal" autocomplete="off" id="rura-t" min="0" step="0.1"></label>
+              <label class="calc-field"><span>Długość [m]</span><input type="number" inputmode="decimal" autocomplete="off" id="rura-l" min="0" step="0.01"></label>
+              <label class="calc-field"><span>Masa [kg] (opcjonalnie)</span><input type="number" inputmode="decimal" autocomplete="off" id="rura-m" min="0" step="0.01"></label>
+            </div>
+            <div class="calc-result">
+              <div class="calc-result__item"><div class="calc-result__label">Masa 1 m</div><div class="calc-result__value" id="rura-r1">-</div></div>
+              <div class="calc-result__item"><div class="calc-result__label">Masa odcinka</div><div class="calc-result__value" id="rura-r2">-</div></div>
+              <div class="calc-result__item"><div class="calc-result__label">Długość z masy</div><div class="calc-result__value" id="rura-r3">-</div></div>
+            </div>
+          </section>
+
+          <section id="tab-ceownik" class="calc-panel" role="tabpanel" aria-labelledby="calc-tab-ceownik" tabindex="0" hidden>
+            <h3>Kalkulator ceownika (przybliżenie geometryczne)</h3>
+            <div class="calc-grid">
+              <label class="calc-field"><span>Wysokość środnika [mm]</span><input type="number" inputmode="decimal" autocomplete="off" id="ce-h" min="0" step="0.1"></label>
+              <label class="calc-field"><span>Szerokość półki [mm]</span><input type="number" inputmode="decimal" autocomplete="off" id="ce-b" min="0" step="0.1"></label>
+              <label class="calc-field"><span>Grubość środnika [mm]</span><input type="number" inputmode="decimal" autocomplete="off" id="ce-tw" min="0" step="0.1"></label>
+              <label class="calc-field"><span>Grubość półki [mm]</span><input type="number" inputmode="decimal" autocomplete="off" id="ce-tf" min="0" step="0.1"></label>
+              <label class="calc-field"><span>Długość [m]</span><input type="number" inputmode="decimal" autocomplete="off" id="ce-l" min="0" step="0.01"></label>
+              <label class="calc-field"><span>Ilość [szt.]</span><input type="number" inputmode="decimal" autocomplete="off" id="ce-q" min="1" value="1" step="1"></label>
+            </div>
+            <div class="calc-result">
+              <div class="calc-result__item"><div class="calc-result__label">Masa 1 m</div><div class="calc-result__value" id="ce-r1">-</div></div>
+              <div class="calc-result__item"><div class="calc-result__label">Masa 1 szt.</div><div class="calc-result__value" id="ce-r2">-</div></div>
+              <div class="calc-result__item"><div class="calc-result__label">Masa Łączna</div><div class="calc-result__value" id="ce-r3">-</div></div>
+            </div>
+          </section>
+
+          <section id="tab-katownik" class="calc-panel" role="tabpanel" aria-labelledby="calc-tab-katownik" tabindex="0" hidden>
+            <h3>Kalkulator kątownika</h3>
+            <div class="calc-grid">
+              <label class="calc-field"><span>Wysokość ramienia A [mm]</span><input type="number" inputmode="decimal" autocomplete="off" id="ka-a" min="0" step="0.1"></label>
+              <label class="calc-field"><span>Szerokość ramienia B [mm]</span><input type="number" inputmode="decimal" autocomplete="off" id="ka-b" min="0" step="0.1"></label>
+              <label class="calc-field"><span>Grubość [mm]</span><input type="number" inputmode="decimal" autocomplete="off" id="ka-t" min="0" step="0.1"></label>
+              <label class="calc-field"><span>Długość [m]</span><input type="number" inputmode="decimal" autocomplete="off" id="ka-l" min="0" step="0.01"></label>
+              <label class="calc-field"><span>Masa [kg] (opcjonalnie)</span><input type="number" inputmode="decimal" autocomplete="off" id="ka-m" min="0" step="0.01"></label>
+            </div>
+            <div class="calc-result">
+              <div class="calc-result__item"><div class="calc-result__label">Masa 1 m</div><div class="calc-result__value" id="ka-r1">-</div></div>
+              <div class="calc-result__item"><div class="calc-result__label">Masa odcinka</div><div class="calc-result__value" id="ka-r2">-</div></div>
+              <div class="calc-result__item"><div class="calc-result__label">Długość z masy</div><div class="calc-result__value" id="ka-r3">-</div></div>
+            </div>
+          </section>
+        </div>
+
+        <div class="calc-share" aria-labelledby="calc-share-heading">
+          <h3 class="calc-share__title" id="calc-share-heading">Przekazanie danych do formularza kontaktowego</h3>
+          <p class="calc-share__desc">
+            Prześlij aktualnie wpisane wartości kalkulatora bezpośrednio do formularza kontaktowego.
+          </p>
+          <div class="calc-share__actions">
+            <button id="calc-send-contact" class="btn btn--primary" type="button">Prześlij przez formularz kontaktowy</button>
+          </div>
+          <p id="calc-share-status" class="calc-share__status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-strip" aria-labelledby="calc-cta-heading">
+      <div class="container"><div class="contact-strip__inner">
+        <div class="contact-strip__text">
+          <h2 class="contact-strip__title" id="calc-cta-heading">Potrzebujesz dokładnej wyceny?</h2>
+          <p class="contact-strip__sub">Prześlij parametry materiału i zakres prac. Przygotujemy ofertę pod Twój projekt.</p>
+        </div>
+        <div class="contact-strip__actions">
+          <a class="btn btn--outline-white" href="tel:+48323270094">+48 32 327 00 94</a>
+          <a class="btn btn--primary" href="kontakt.html">Kontakt</a>
+        </div>
+      </div></div>
+    </section>
+  </main>
+
+  <div id="site-footer-placeholder"></div>
+
+  <script>
+    (function () {
+      'use strict';
+
+      const DENSITY = 7850;
+      const STORAGE_KEY = 'bestal_calc_draft_v1';
+
+      const tabs = Array.from(document.querySelectorAll('.calc-tab'));
+      const panels = Array.from(document.querySelectorAll('.calc-panel'));
+
+      const CALC_DEFS = {
+        blacha: {
+          label: 'Blacha',
+          inputs: [
+            { id: 'blacha-t', label: 'Grubość [mm]' },
+            { id: 'blacha-w', label: 'Szerokość [mm]' },
+            { id: 'blacha-l', label: 'Długość [mm]' },
+            { id: 'blacha-q', label: 'Ilość [szt.]' }
+          ],
+          results: [
+            { id: 'blacha-r1', label: 'Masa 1 szt.' },
+            { id: 'blacha-r2', label: 'Masa Łączna' },
+            { id: 'blacha-r3', label: 'Masa 1 m2' }
+          ]
+        },
+        rura: {
+          label: 'Rura',
+          inputs: [
+            { id: 'rura-d', label: 'Średnica zewnętrzna [mm]' },
+            { id: 'rura-t', label: 'Grubość ścianki [mm]' },
+            { id: 'rura-l', label: 'Długość [m]' },
+            { id: 'rura-m', label: 'Masa [kg]' }
+          ],
+          results: [
+            { id: 'rura-r1', label: 'Masa 1 m' },
+            { id: 'rura-r2', label: 'Masa odcinka' },
+            { id: 'rura-r3', label: 'Długość z masy' }
+          ]
+        },
+        ceownik: {
+          label: 'Ceownik',
+          inputs: [
+            { id: 'ce-h', label: 'Wysokość środnika [mm]' },
+            { id: 'ce-b', label: 'Szerokość półki [mm]' },
+            { id: 'ce-tw', label: 'Grubość środnika [mm]' },
+            { id: 'ce-tf', label: 'Grubość półki [mm]' },
+            { id: 'ce-l', label: 'Długość [m]' },
+            { id: 'ce-q', label: 'Ilość [szt.]' }
+          ],
+          results: [
+            { id: 'ce-r1', label: 'Masa 1 m' },
+            { id: 'ce-r2', label: 'Masa 1 szt.' },
+            { id: 'ce-r3', label: 'Masa Łączna' }
+          ]
+        },
+        katownik: {
+          label: 'Kątownik',
+          inputs: [
+            { id: 'ka-a', label: 'Wysokość ramienia A [mm]' },
+            { id: 'ka-b', label: 'Szerokość ramienia B [mm]' },
+            { id: 'ka-t', label: 'Grubość [mm]' },
+            { id: 'ka-l', label: 'Długość [m]' },
+            { id: 'ka-m', label: 'Masa [kg]' }
+          ],
+          results: [
+            { id: 'ka-r1', label: 'Masa 1 m' },
+            { id: 'ka-r2', label: 'Masa odcinka' },
+            { id: 'ka-r3', label: 'Długość z masy' }
+          ]
+        }
+      };
+
+      function setStatus(message, type) {
+        const status = document.getElementById('calc-share-status');
+        if (!status) return;
+        status.textContent = message || '';
+        status.classList.remove('is-ok', 'is-error');
+        if (type) status.classList.add(type);
+      }
+
+      function activateTab(tabKey, options) {
+        const shouldFocus = Boolean(options && options.focusTab);
+
+        tabs.forEach((item) => {
+          const isActive = item.dataset.tab === tabKey;
+          item.classList.toggle('active', isActive);
+          item.setAttribute('aria-selected', isActive ? 'true' : 'false');
+          item.setAttribute('tabindex', isActive ? '0' : '-1');
+          if (isActive && shouldFocus) {
+            item.focus();
+          }
+        });
+
+        panels.forEach((panel) => {
+          const isActive = panel.id === 'tab-' + tabKey;
+          panel.classList.toggle('active', isActive);
+          panel.hidden = !isActive;
+        });
+      }
+
+      function activeTabKey() {
+        const active = document.querySelector('.calc-tab.active');
+        return (active && active.dataset.tab) || 'blacha';
+      }
+
+      tabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          activateTab(tab.dataset.tab);
+        });
+
+        tab.addEventListener('keydown', (event) => {
+          const index = tabs.indexOf(tab);
+          let nextIndex = index;
+
+          if (event.key === 'ArrowRight') {
+            nextIndex = (index + 1) % tabs.length;
+          } else if (event.key === 'ArrowLeft') {
+            nextIndex = (index - 1 + tabs.length) % tabs.length;
+          } else if (event.key === 'Home') {
+            nextIndex = 0;
+          } else if (event.key === 'End') {
+            nextIndex = tabs.length - 1;
+          } else {
+            return;
+          }
+
+          event.preventDefault();
+          activateTab(tabs[nextIndex].dataset.tab, { focusTab: true });
+        });
+      });
+
+      function val(id) {
+        const el = document.getElementById(id);
+        if (!el) return 0;
+        const n = parseFloat(el.value);
+        return Number.isFinite(n) ? n : 0;
+      }
+
+      function fmt(value, unit) {
+        if (!Number.isFinite(value) || value <= 0) return '-';
+        return `${value.toFixed(2)} ${unit}`;
+      }
+
+      function set(id, text) {
+        const el = document.getElementById(id);
+        if (el) el.textContent = text;
+      }
+
+      function calcBlacha() {
+        const t = val('blacha-t');
+        const w = val('blacha-w');
+        const l = val('blacha-l');
+        const q = Math.max(1, val('blacha-q') || 1);
+
+        const volume = (t / 1000) * (w / 1000) * (l / 1000);
+        const one = volume * DENSITY;
+        const total = one * q;
+        const m2 = (t / 1000) * DENSITY;
+
+        set('blacha-r1', fmt(one, 'kg'));
+        set('blacha-r2', fmt(total, 'kg'));
+        set('blacha-r3', fmt(m2, 'kg/m2'));
+      }
+
+      function calcRura() {
+        const d = val('rura-d') / 1000;
+        const t = val('rura-t') / 1000;
+        const l = val('rura-l');
+        const m = val('rura-m');
+        if (!d || !t || (d - 2 * t) <= 0) {
+          set('rura-r1', '-');
+          set('rura-r2', '-');
+          set('rura-r3', '-');
+          return;
+        }
+
+        const area = Math.PI / 4 * (d * d - (d - 2 * t) * (d - 2 * t));
+        const perM = area * DENSITY;
+
+        set('rura-r1', fmt(perM, 'kg/m'));
+        set('rura-r2', fmt(l * perM, 'kg'));
+        set('rura-r3', fmt(m / perM, 'm'));
+      }
+
+      function calcCeownik() {
+        const h = val('ce-h');
+        const b = val('ce-b');
+        const tw = val('ce-tw');
+        const tf = val('ce-tf');
+        const l = val('ce-l');
+        const q = Math.max(1, val('ce-q') || 1);
+
+        const areaMm2 = h * tw + 2 * b * tf;
+        const perM = areaMm2 * 1e-6 * DENSITY;
+
+        set('ce-r1', fmt(perM, 'kg/m'));
+        set('ce-r2', fmt(perM * l, 'kg'));
+        set('ce-r3', fmt(perM * l * q, 'kg'));
+      }
+
+      function calcKatownik() {
+        const a = val('ka-a');
+        const b = val('ka-b');
+        const t = val('ka-t');
+        const l = val('ka-l');
+        const m = val('ka-m');
+
+        const areaMm2 = (a + b - t) * t;
+        const perM = areaMm2 * 1e-6 * DENSITY;
+
+        set('ka-r1', fmt(perM, 'kg/m'));
+        set('ka-r2', fmt(perM * l, 'kg'));
+        set('ka-r3', fmt(m / perM, 'm'));
+      }
+
+      function recalcAll() {
+        calcBlacha();
+        calcRura();
+        calcCeownik();
+        calcKatownik();
+      }
+
+      function collectDraft() {
+        const key = activeTabKey();
+        const def = CALC_DEFS[key];
+        const inputs = {};
+        const results = {};
+
+        def.inputs.forEach((field) => {
+          const input = document.getElementById(field.id);
+          inputs[field.id] = {
+            label: field.label,
+            value: input ? input.value : ''
+          };
+        });
+
+        def.results.forEach((field) => {
+          const result = document.getElementById(field.id);
+          results[field.id] = {
+            label: field.label,
+            value: result ? result.textContent : '-'
+          };
+        });
+
+        return {
+          source: 'kalkulator-produktow',
+          savedAt: new Date().toISOString(),
+          tab: key,
+          tabLabel: def.label,
+          inputs,
+          results
+        };
+      }
+
+      function storeDraft() {
+        try {
+          const draft = collectDraft();
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(draft));
+          return draft;
+        } catch (_error) {
+          setStatus('Nie udało się przygotować danych kalkulatora do wysłania.', 'is-error');
+          return null;
+        }
+      }
+
+      document.querySelectorAll('input').forEach((input) => {
+        input.addEventListener('input', () => {
+          recalcAll();
+        });
+      });
+
+      const sendBtn = document.getElementById('calc-send-contact');
+
+      if (sendBtn) {
+        sendBtn.addEventListener('click', () => {
+          const draft = storeDraft();
+          if (!draft) return;
+          window.location.href = 'kontakt.html?from=calculator';
+        });
+      }
+
+      activateTab(activeTabKey());
+      recalcAll();
+    })();
+  </script>
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

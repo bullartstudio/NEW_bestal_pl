@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Panel dodawania wpisów blogowych PZRE BESTAL.">
+  <title>Panel bloga | PZRE BESTAL</title>
+  <link rel="canonical" href="https://www.bestal.pl/blog-admin.html">
+  <meta name="theme-color" content="#6A132E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/media/layouts/default/images/favicon9a04.png" type="image/png">
+</head>
+<body>
+  <div id="site-header-placeholder"></div>
+
+  <div class="page-banner">
+    <div class="container">
+      <div class="page-banner__content">
+        <nav class="breadcrumb" aria-label="Ścieżka nawigacji">
+          <a href="index.html">Strona główna</a>
+          <span class="breadcrumb__sep" aria-hidden="true">/</span>
+          <span aria-current="page">Panel bloga</span>
+        </nav>
+        <h1 class="page-banner__title">Panel dodawania wpisów</h1>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="section bg-white" aria-labelledby="admin-heading">
+      <div class="container u-max-860">
+        <h2 id="admin-heading" class="section__title section__title--left">Nowy wpis</h2>
+        <p class="section__subtitle u-subtitle-left">
+          Ten formularz zapisuje wpisy do backendu `/api/posts`. Jeśli ustawisz `CMS_API_KEY`, wpisz go poniżej.
+        </p>
+
+        <form id="blog-admin-form" class="admin-form" novalidate>
+          <p class="admin-form__required-note"><span class="required-mark">*</span> Pola obowiązkowe</p>
+
+          <label class="admin-form__field">
+            <span>Tytuł <span class="required-mark">*</span></span>
+            <input id="post-title" name="title" type="text" required aria-required="true" autocomplete="off">
+          </label>
+
+          <label class="admin-form__field">
+            <span>Kategoria</span>
+            <input id="post-category" name="category" type="text" placeholder="Aktualności" autocomplete="off">
+          </label>
+
+          <label class="admin-form__field">
+            <span>Autor</span>
+            <input id="post-author" name="author" type="text" placeholder="Zespół PZRE BESTAL" autocomplete="name">
+          </label>
+
+          <label class="admin-form__field">
+            <span>Tagi (po przecinku)</span>
+            <input id="post-tags" name="tags" type="text" placeholder="prefabrykacja, montaż" autocomplete="off">
+          </label>
+
+          <label class="admin-form__field admin-form__field--full">
+            <span>Lead <span class="required-mark">*</span></span>
+            <textarea id="post-excerpt" name="excerpt" rows="3" required aria-required="true" autocomplete="off"></textarea>
+          </label>
+
+          <label class="admin-form__field admin-form__field--full">
+            <span>Treść (akapit oddziel pustą linią) <span class="required-mark">*</span></span>
+            <textarea id="post-content" name="content" rows="12" required aria-required="true" autocomplete="off"></textarea>
+          </label>
+
+          <label class="admin-form__field admin-form__field--full">
+            <span>Klucz API (opcjonalny)</span>
+            <input id="post-api-key" name="apiKey" type="password" placeholder="x-api-key" autocomplete="off">
+            <small class="admin-form__hint">Jeśli backend ma ustawiony `CMS_API_KEY`, podaj klucz, aby dodać wpis.</small>
+          </label>
+
+          <div class="admin-form__actions">
+            <button id="blog-admin-submit" class="btn btn--primary admin-form__submit" type="submit">Dodaj wpis</button>
+            <a class="btn btn--outline" href="blog.html">Przejdź do bloga</a>
+          </div>
+        </form>
+
+        <p id="blog-admin-result" class="admin-form__result" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer-placeholder"></div>
+
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/blog-admin.js"></script>
+</body>
+</html>

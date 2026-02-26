@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "slug": "prefabrykacja-rurociagow-jak-skracamy-czas-postoju",
+        "title": "Prefabrykacja rurociągów: jak skracamy czas postoju instalacji",
+        "excerpt": "Dobrze zaplanowana prefabrykacja ogranicza zakres robót na obiekcie i ułatwia dotrzymanie krótkich okien remontowych.",
+        "content": "Prefabrykacja rurociągów to najskuteczniejszy sposób na skrócenie prac wykonywanych bezpośrednio na instalacji. Im większy zakres przeniesiemy do warsztatu, tym mniej kolizji, mniej nieplanowanych przerw i większa kontrola jakości.\n\nKluczowy jest etap przygotowania: kompletna dokumentacja, uzgodniona kolejność montażu i podział na partie dostaw. Gdy elementy docierają dokładnie w kolejności instalacji, brygady nie tracą czasu na sortowanie i przepinanie logistyki.\n\nW projektach energetycznych duże znaczenie ma powiązanie prefabrykacji z planem badań i odbiorów. Atesty materiałowe, protokoły kontroli i identyfikowalność elementów powinny być przygotowywane równolegle z produkcją, a nie dopiero na końcu inwestycji.\n\nDobrym standardem jest model „warsztat + obiekt”: spoiny i operacje możliwe do wykonania poza zakładem realizuje się wcześniej, a na obiekcie pozostają tylko połączenia finalne oraz prace wymagające obecności na instalacji.\n\nW PZRE BESTAL łączymy prefabrykację, transport i montaż w jednym planie realizacyjnym. Dzięki temu szybciej reagujemy na zmiany zakresu i ograniczamy ryzyko przekroczenia okna postoju.",
+        "category": "Prefabrykacja",
+        "tags": [
+            "prefabrykacja",
+            "rurociągi",
+            "energetyka"
+        ],
+        "author": "Zespół PZRE BESTAL",
+        "publishedAt": "2026-01-08T08:30:00.000Z",
+        "readingTime": 8,
+        "coverImage": "assets/media/obrazy/pliki/bestal-prefabrykacja-rurociagow-zaklad.jpg",
+        "coverAlt": "Prefabrykacja rurociągów w zakładzie produkcyjnym"
+    },
+    {
+        "id": 2,
+        "slug": "montaz-rurociagow-standardy-jakosci-i-bezpieczenstwa",
+        "title": "Montaż rurociągów: standardy jakości i bezpieczeństwa",
+        "excerpt": "Bezawaryjny montaż wymaga połączenia BHP, dyscypliny jakościowej i precyzyjnej koordynacji harmonogramu.",
+        "content": "Montaż rurociągów przemysłowych wymaga równowagi między bezpieczeństwem pracy, jakością wykonania i tempem realizacji. Brak kontroli w którymkolwiek z tych obszarów zwykle kończy się poprawkami, opóźnieniami lub problemami podczas rozruchu.\n\nPierwszy etap to przygotowanie frontu robót: potwierdzenie dostaw, dostępności podpór, warunków BHP i kolejności wejścia ekip. Na tym etapie warto też jasno wskazać punkty krytyczne odbiorów, aby uniknąć zatrzymań prac.\n\nDrugi etap obejmuje montaż zasadniczy prowadzony zgodnie z dokumentacją i procedurami jakości. Codzienna kontrola geometrii tras, dopasowania elementów i warunków spawania ogranicza ryzyko błędów ujawnianych dopiero podczas prób.\n\nTrzeci etap to odbiory i przygotowanie instalacji do rozruchu. Oprócz samych prób kluczowy jest komplet dokumentacji: atesty, protokoły kontroli i potwierdzenia wykonania prac.\n\nNajwiększą wartość daje wykonawca, który łączy montaż z własnym zapleczem prefabrykacji i szybkim wsparciem serwisowym. Takie podejście zwiększa elastyczność i przewidywalność całego projektu.",
+        "category": "Montaż",
+        "tags": [
+            "montaż",
+            "UDT",
+            "instalacje przemysłowe"
+        ],
+        "author": "Zespół PZRE BESTAL",
+        "publishedAt": "2026-01-12T09:00:00.000Z",
+        "readingTime": 8,
+        "coverImage": "assets/media/obrazy/pliki/bestal-prace-przemyslowe-zespol.jpg",
+        "coverAlt": "Montaż rurociągów na obiekcie przemysłowym"
+    },
+    {
+        "id": 3,
+        "slug": "naprawy-modernizacje-urzadzen-cisnieniowych-praktyka",
+        "title": "Naprawy i modernizacje urządzeń ciśnieniowych w praktyce",
+        "excerpt": "Skuteczne remonty urządzeń ciśnieniowych wymagają etapowego planu, gotowych elementów zamiennych i sprawnych odbiorów.",
+        "content": "Naprawy i modernizacje urządzeń ciśnieniowych najlepiej planować w formule projektu etapowego. Pozwala to oddzielnie zarządzać diagnozą, przygotowaniem materiałów, wykonaniem robót i procedurą odbiorową.\n\nW praktyce największy wpływ na termin ma przygotowanie materiałowe. Jeśli elementy krytyczne są gotowe przed wejściem na obiekt, brygady remontowe przechodzą do prac zasadniczych bez przestojów wynikających z oczekiwania na dostawy.\n\nDrugi obszar to uzgodnienia techniczne i formalne. Modernizacja często oznacza zmianę konfiguracji urządzenia, dlatego wcześniej trzeba ustalić zakres dokumentacji, badań i kryteria odbiorowe.\n\nPodczas realizacji kluczowe jest bieżące raportowanie postępu i ryzyk. Krótkie cykle przeglądowe z inwestorem pomagają szybko zatwierdzać decyzje wykonawcze i utrzymać harmonogram.\n\nPo zakończeniu robót równie ważny jest etap przekazania instalacji do eksploatacji. Rzetelny pakiet dokumentów i wsparcie przy uruchomieniu skracają czas dojścia do stabilnej pracy urządzeń.",
+        "category": "Remonty",
+        "tags": [
+            "remonty",
+            "modernizacje",
+            "kotły"
+        ],
+        "author": "Zespół PZRE BESTAL",
+        "publishedAt": "2026-01-16T07:45:00.000Z",
+        "readingTime": 8,
+        "coverImage": "assets/media/obrazy/pliki/bestal-instalacje-rurociagi-przemyslowe.jpg",
+        "coverAlt": "Prace remontowe urządzeń ciśnieniowych"
+    },
+    {
+        "id": 4,
+        "slug": "serwis-armatury-przemyslowej-checklista-przegladow",
+        "title": "Serwis armatury przemysłowej: checklista przeglądów",
+        "excerpt": "Regularne przeglądy i gotowość awaryjna znacząco zmniejszają ryzyko zatrzymania instalacji.",
+        "content": "Regularny serwis armatury przemysłowej to jedno z najtańszych działań ograniczających ryzyko awarii. Dobrze zaplanowane przeglądy pozwalają wykryć zużycie uszczelnień, problemy z napędami i spadek szczelności zanim doprowadzą do postoju.\n\nPodstawą skutecznego serwisu jest checklista oparta na parametrach pracy danego układu. Zakres przeglądu powinien obejmować ocenę wizualną, kontrolę szczelności, weryfikację napędów, test funkcjonalny oraz analizę historii interwencji.\n\nWarto stosować dwa poziomy obsługi: przeglądy planowe i gotowość awaryjną. Przeglądy planowe porządkują harmonogram i koszty, a tryb awaryjny zapewnia szybką reakcję przy zdarzeniach nieprzewidzianych.\n\nRównie ważna jak sama naprawa jest dokumentacja serwisowa. Raport powinien wskazywać wykonane czynności, wymienione części, wyniki testów i zalecenia do kolejnego przeglądu.\n\nW obiektach energetycznych przewagę daje partner, który łączy serwis z doświadczeniem montażowym i prefabrykacyjnym. Dzięki temu łatwiej przejść od diagnozy do skutecznej naprawy.",
+        "category": "Serwis",
+        "tags": [
+            "serwis",
+            "armatura",
+            "utrzymanie ruchu"
+        ],
+        "author": "Zespół PZRE BESTAL",
+        "publishedAt": "2026-01-20T10:15:00.000Z",
+        "readingTime": 7,
+        "coverImage": "assets/media/obrazy/pliki/bestal-zespol-realizacja-energetyka.jpg",
+        "coverAlt": "Serwis armatury przemysłowej"
+    },
+    {
+        "id": 5,
+        "slug": "udt-i-certyfikaty-co-oznaczaja-dla-inwestora",
+        "title": "UDT i certyfikaty: co oznaczają dla inwestora",
+        "excerpt": "Certyfikaty jakości i wymagania UDT porządkują proces realizacji i przyspieszają odbiory końcowe.",
+        "content": "Wymagania UDT i certyfikaty jakości są dla inwestora praktycznym narzędziem ograniczania ryzyka projektu. Oznaczają, że wykonawca pracuje według uporządkowanych procedur i posiada potwierdzone kompetencje.\n\nISO 9001 porządkuje zarządzanie jakością od etapu zapytania po przekazanie dokumentacji końcowej. Dzięki temu inwestor otrzymuje większą przewidywalność i mniejsze ryzyko chaosu na końcu realizacji.\n\nPN-EN ISO 3834-2 dotyczy jakości w spawalnictwie i ma bezpośredni wpływ na bezpieczeństwo instalacji pracujących pod ciśnieniem i wysoką temperaturą.\n\nDla inwestora liczy się także komplet dokumentacji: atesty materiałowe, protokoły badań i zapisy odbiorowe. Bez tego nawet poprawnie wykonane prace mogą opóźnić formalne zamknięcie zadania.\n\nWspółpraca z firmą posiadającą właściwe uprawnienia przekłada się na krótsze odbiory, mniejszą liczbę poprawek i wyższą niezawodność instalacji po uruchomieniu.",
+        "category": "Jakość",
+        "tags": [
+            "certyfikaty",
+            "ISO",
+            "UDT"
+        ],
+        "author": "Dział Jakości",
+        "publishedAt": "2026-01-23T06:50:00.000Z",
+        "readingTime": 7,
+        "coverImage": "assets/media/obrazy/pliki/bestal-prefabrykacja-rury-stalowe.jpg",
+        "coverAlt": "Dokumentacja jakości i certyfikacja"
+    },
+    {
+        "id": 6,
+        "slug": "logistyka-dostaw-elementow-na-obiekt-przemyslowy",
+        "title": "Logistyka dostaw elementów na obiekt przemysłowy",
+        "excerpt": "Dostawy planowane partiami montażowymi skracają czas realizacji i zmniejszają ryzyko przestojów.",
+        "content": "Logistyka dostaw w projektach przemysłowych nie powinna być traktowana jako etap końcowy. To jeden z kluczowych elementów wpływających na tempo montażu i bezpieczeństwo realizacji.\n\nNajlepiej sprawdza się model dostaw partiami montażowymi. Oznacza to kompletowanie paczek zgodnie z rzeczywistą kolejnością robót, a nie wyłącznie według wygody produkcyjnej.\n\nWażne jest wcześniejsze uzgodnienie stref rozładunku i dróg transportowych na terenie zakładu. W obiektach pracujących często obowiązują ograniczenia ruchu i okna czasowe, które trzeba uwzględnić już na etapie planowania.\n\nDużą przewagę daje własny transport wykonawcy. Ułatwia szybkie korekty harmonogramu i pozwala reagować na zmiany zakresu bez dodatkowych pośredników logistycznych.\n\nDobrze zaplanowana logistyka skraca czas realizacji, obniża ryzyko uszkodzeń i poprawia kontrolę kosztów projektu.",
+        "category": "Logistyka",
+        "tags": [
+            "transport",
+            "logistyka",
+            "prefabrykacja"
+        ],
+        "author": "Zespół PZRE BESTAL",
+        "publishedAt": "2026-01-27T08:10:00.000Z",
+        "readingTime": 7,
+        "coverImage": "assets/media/obrazy/pliki/bestal-transport-elementow-energetycznych.jpg",
+        "coverAlt": "Logistyka dostaw prefabrykatów"
+    },
+    {
+        "id": 7,
+        "slug": "jak-przygotowac-zapytanie-ofertowe-na-prefabrykacje",
+        "title": "Jak przygotować zapytanie ofertowe na prefabrykację",
+        "excerpt": "Kompletne zapytanie ofertowe przyspiesza wycenę i ogranicza ryzyko zmian zakresu po starcie produkcji.",
+        "content": "Dobre zapytanie ofertowe skraca czas przygotowania wyceny i zmniejsza liczbę późniejszych zmian zakresu. Największe problemy pojawiają się wtedy, gdy dokumentacja wejściowa jest niepełna lub nieprecyzyjna.\n\nPodstawą zapytania powinien być jasny zakres elementów wraz z parametrami pracy instalacji. Warto od razu wskazać materiały, grubości, średnice, wymagane klasy jakości i standardy wykonania.\n\nKolejny kluczowy punkt to wymagania dotyczące badań i dokumentacji. Jeśli inwestor oczekuje konkretnych protokołów lub udziału jednostki notyfikowanej, te założenia powinny znaleźć się w zapytaniu od początku.\n\nW zapytaniu warto opisać również założenia logistyczne: miejsce dostawy, podział na partie, oczekiwane terminy i warunki odbioru.\n\nIm bardziej uporządkowane zapytanie, tym szybsza i bardziej porównywalna wycena oraz mniejsze ryzyko rozbieżności podczas realizacji.",
+        "category": "Poradnik",
+        "tags": [
+            "wycena",
+            "zapytanie ofertowe",
+            "produkcja"
+        ],
+        "author": "Dział Handlowy",
+        "publishedAt": "2026-01-30T09:30:00.000Z",
+        "readingTime": 7,
+        "coverImage": "assets/media/obrazy/pliki/bestal-produkcja-elementow-rurociagow.jpg",
+        "coverAlt": "Przygotowanie oferty prefabrykacyjnej"
+    },
+    {
+        "id": 8,
+        "slug": "najczestsze-bledy-przy-remontach-kotlow-i-jak-ich-unikac",
+        "title": "Najczęstsze błędy przy remontach kotłów i jak ich unikać",
+        "excerpt": "Większość opóźnień remontowych wynika z braków przygotowania i zbyt późnych decyzji technicznych.",
+        "content": "Najczęstsze błędy przy remontach kotłów wynikają z niedoszacowania etapu przygotowania. Zespół wykonawczy wchodzi na obiekt bez pełnej listy zakresu, bez gotowych elementów zamiennych i bez uzgodnionych priorytetów.\n\nPierwszym problemem jest niepełna inwentaryzacja przed postojem. Brak danych o rzeczywistym stanie elementów powoduje, że decyzje o naprawach zapadają zbyt późno.\n\nDrugim błędem jest odkładanie uzgodnień technologicznych na czas realizacji. Jeśli sposób naprawy nie jest zatwierdzony wcześniej, pojawiają się przestoje formalne i dodatkowe ryzyka harmonogramowe.\n\nTrzeci obszar to logistyka. Brak podziału na partie montażowe i nieczytelny plan dostaw prowadzą do spiętrzeń na placu budowy oraz strat czasu.\n\nSkuteczny remont kotła to połączenie rzetelnego przygotowania, sprawnej realizacji i bieżącej koordynacji decyzji technicznych.",
+        "category": "Remonty",
+        "tags": [
+            "kotły",
+            "postoje remontowe",
+            "planowanie"
+        ],
+        "author": "Zespół PZRE BESTAL",
+        "publishedAt": "2026-02-02T07:20:00.000Z",
+        "readingTime": 7,
+        "coverImage": "assets/media/obrazy/pliki/galeria/30/sizes/bestal-prefabrykacja-konstrukcji.jpg",
+        "coverAlt": "Remont kotła energetycznego"
+    },
+    {
+        "id": 9,
+        "slug": "co-wplywa-na-trwalosc-spoin-w-instalacjach-energetycznych",
+        "title": "Co wpływa na trwałość spoin w instalacjach energetycznych",
+        "excerpt": "Na trwałość spoin wpływa cały proces: przygotowanie złącza, technologia i konsekwentna kontrola jakości.",
+        "content": "Trwałość spoin w instalacjach energetycznych zależy od całego procesu wykonawczego, a nie wyłącznie od samego aktu spawania. O wyniku decydują dobór materiału, przygotowanie złącza, parametry technologii i kontrola jakości.\n\nBłędy pojawiają się najczęściej na starcie, przy niewłaściwym przygotowaniu krawędzi oraz niedostatecznej kontroli czystości złącza. Nawet dobrze dobrana technologia nie skompensuje problemów z geometrią przygotowania.\n\nIstotnym czynnikiem jest stabilność parametrów procesu. Powtarzalność prądu, osłony gazowej i warunków cieplnych wpływa bezpośrednio na jakość metalurgiczną spoiny.\n\nNie można pominąć badań i odbiorów. Badania nieniszczące, dokumentacja spawalnicza i identyfikowalność złączy dają pewność zgodności z wymaganiami projektu.\n\nW długim horyzoncie trwałość spoin buduje kultura jakości: od przygotowania materiału po raportowanie wyników kontroli.",
+        "category": "Jakość",
+        "tags": [
+            "spawanie",
+            "jakość",
+            "rurociągi"
+        ],
+        "author": "Dział Jakości",
+        "publishedAt": "2026-02-06T11:05:00.000Z",
+        "readingTime": 7,
+        "coverImage": "assets/media/obrazy/pliki/bestal-spawanie-prefabrykacja-rur.jpg",
+        "coverAlt": "Spoiny i jakość wykonania instalacji"
+    },
+    {
+        "id": 10,
+        "slug": "utrzymanie-ruchu-kiedy-warto-zlecic-serwis-zewnetrzny",
+        "title": "Utrzymanie ruchu: kiedy warto zlecić serwis zewnętrzny",
+        "excerpt": "Model mieszany serwisu wewnętrznego i zewnętrznego poprawia czas reakcji i przewidywalność kosztów.",
+        "content": "Zewnętrzny serwis jest szczególnie przydatny wtedy, gdy dział utrzymania ruchu ma ograniczone zasoby lub mierzy się ze spiętrzeniem zadań. Dotyczy to zarówno okresów remontowych, jak i sytuacji awaryjnych.\n\nNajlepsze efekty daje model mieszany. Wewnętrzny zespół odpowiada za bieżący nadzór nad instalacją, a partner zewnętrzny wspiera działania planowe i interwencyjne wymagające specjalistycznego zaplecza.\n\nWarto analizować nie tylko cenę usługi, ale też organizację współpracy: czas reakcji, zakres odpowiedzialności, sposób raportowania i dostępność części zamiennych.\n\nDobrze przygotowana umowa serwisowa powinna obejmować KPI operacyjne, harmonogram przeglądów i jasny model eskalacji awarii. Dzięki temu obie strony wiedzą, jak działać w sytuacjach krytycznych.\n\nW praktyce zewnętrzny serwis nie zastępuje utrzymania ruchu, ale zwiększa jego skuteczność i pozwala stabilniej planować koszty eksploatacyjne.",
+        "category": "Serwis",
+        "tags": [
+            "utrzymanie ruchu",
+            "przeglądy",
+            "awarie"
+        ],
+        "author": "Zespół PZRE BESTAL",
+        "publishedAt": "2026-02-10T10:40:00.000Z",
+        "readingTime": 7,
+        "coverImage": "assets/media/obrazy/sizekwadrat/pliki/miniaturka_serwis.jpg",
+        "coverAlt": "Utrzymanie ruchu i serwis zewnętrzny"
+    }
+]

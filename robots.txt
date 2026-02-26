@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /backend/
+Disallow: /cms/
+Disallow: /blog-admin.html
+Disallow: /node_modules/
+Disallow: /tmp_logo_scan/
+
+Sitemap: https://www.bestal.pl/sitemap.xml

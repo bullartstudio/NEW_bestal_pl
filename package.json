@@ -1,0 +1,14 @@
+﻿{
+  "name": "bestal-site-cms",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "qa:encoding": "node scripts/check-encoding.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
