@@ -117,22 +117,24 @@
             </div>
 
             <form id="contact-form" class="contact-form-grid" action="#" method="post">
+              <p class="contact-form-section-title">Dane kontaktowe</p>
               <div class="contact-form-field">
                 <label for="cf-name">Imię i nazwisko <span class="required-mark">*</span></label>
-                <input id="cf-name" name="name" type="text" required aria-required="true" autocomplete="name">
+                <input id="cf-name" name="name" type="text" required aria-required="true" autocomplete="name" placeholder="np. Jan Kowalski">
               </div>
               <div class="contact-form-field">
                 <label for="cf-company">Firma</label>
-                <input id="cf-company" name="company" type="text" autocomplete="organization">
+                <input id="cf-company" name="company" type="text" autocomplete="organization" placeholder="np. BESTAL Sp. z o.o.">
               </div>
               <div class="contact-form-field">
                 <label for="cf-email">E-mail <span class="required-mark">*</span></label>
-                <input id="cf-email" name="email" type="email" required aria-required="true" autocomplete="email" inputmode="email">
+                <input id="cf-email" name="email" type="email" required aria-required="true" autocomplete="email" inputmode="email" placeholder="np. kontakt@firma.pl">
               </div>
               <div class="contact-form-field">
                 <label for="cf-phone">Telefon</label>
-                <input id="cf-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel">
+                <input id="cf-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="np. +48 600 000 000">
               </div>
+              <p class="contact-form-section-title">Szczegóły zapytania</p>
               <div class="contact-form-field contact-form-field--full">
                 <label for="cf-topic">Temat zapytania</label>
                 <select id="cf-topic" name="topic">
@@ -155,8 +157,8 @@
                 <label class="contact-form-consent" for="cf-rodo">
                   <input id="cf-rodo" name="rodoConsent" type="checkbox" required aria-required="true">
                   <span>
-                    Akceptują przetwarzanie danych osobowych zgodnie z
-                    <a href="rodo.html">politykę prywatności i klauzulę RODO</a>.
+                    Akceptuję przetwarzanie danych osobowych zgodnie z
+                    <a href="rodo.html">polityką prywatności i klauzulą RODO</a>.
                     <span class="required-mark">*</span>
                   </span>
                 </label>

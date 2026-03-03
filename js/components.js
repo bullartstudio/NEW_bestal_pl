@@ -202,6 +202,7 @@
         <a href="rodo.html">Polityka prywatności</a>
         <a href="kontakt.html">Kontakt</a>
       </nav>
+      <p class="footer-bottom__made-by">Strona wykonana przez <a href="https://twojastrona.tech/" target="_blank" rel="noopener noreferrer">twojastrona.tech</a></p>
     </div>
   </div>
 </footer>
@@ -234,6 +235,12 @@
 </div>`;
   }
 
+  function loadDemoPopup() {
+    const s = document.createElement('script');
+    s.src = (document.querySelector('base') ? '' : '') + 'js/demo-popup.js';
+    document.body.appendChild(s);
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     const headerPlaceholder = document.getElementById('site-header-placeholder');
     if (headerPlaceholder) {
@@ -246,6 +253,7 @@
     }
 
     document.body.insertAdjacentHTML('beforeend', mobileCTABarHTML());
+
+    loadDemoPopup();
   });
 })();
-
